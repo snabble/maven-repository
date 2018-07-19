@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>io.snabble.sdk</groupId>
+  <artifactId>utils</artifactId>
+  <versioning>
+    <versions>
+      <version>0.9.0-SEPA-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20180719152159</lastUpdated>
+  </versioning>
+</metadata>
