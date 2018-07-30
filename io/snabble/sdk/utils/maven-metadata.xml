@@ -4,8 +4,8 @@
   <artifactId>utils</artifactId>
   <versioning>
     <versions>
-      <version>0.9.0-SEPA-SNAPSHOT</version>
+      <version>0.8.17-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20180724100804</lastUpdated>
+    <lastUpdated>20180730132727</lastUpdated>
   </versioning>
 </metadata>
