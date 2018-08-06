@@ -2,10 +2,12 @@
 <metadata>
   <groupId>io.snabble.sdk</groupId>
   <artifactId>ui</artifactId>
+  <version>0.9.0-SNAPSHOT</version>
   <versioning>
-    <versions>
-      <version>0.9.0-SNAPSHOT</version>
-    </versions>
+    <snapshot>
+      <timestamp>20180806.153300</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
     <lastUpdated>20180806153300</lastUpdated>
   </versioning>
 </metadata>
