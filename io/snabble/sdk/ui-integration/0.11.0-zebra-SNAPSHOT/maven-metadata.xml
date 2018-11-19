@@ -2,10 +2,12 @@
 <metadata>
   <groupId>io.snabble.sdk</groupId>
   <artifactId>ui-integration</artifactId>
+  <version>0.11.0-zebra-SNAPSHOT</version>
   <versioning>
-    <versions>
-      <version>0.11.0-zebra-SNAPSHOT</version>
-    </versions>
+    <snapshot>
+      <timestamp>20181119.091924</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
     <lastUpdated>20181119091924</lastUpdated>
   </versioning>
 </metadata>
