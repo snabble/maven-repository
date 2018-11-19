@@ -4,8 +4,8 @@
   <artifactId>core</artifactId>
   <versioning>
     <versions>
-      <version>0.11.0-zebra-SNAPSHOT</version>
+      <version>0.11.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20181119093007</lastUpdated>
+    <lastUpdated>20181119103416</lastUpdated>
   </versioning>
 </metadata>
