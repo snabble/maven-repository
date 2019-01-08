@@ -4,8 +4,8 @@
   <artifactId>ui-integration</artifactId>
   <versioning>
     <versions>
-      <version>0.11.0-SNAPSHOT</version>
+      <version>0.11.5-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20181120155804</lastUpdated>
+    <lastUpdated>20190108143800</lastUpdated>
   </versioning>
 </metadata>

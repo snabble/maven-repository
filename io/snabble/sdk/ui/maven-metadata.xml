@@ -4,8 +4,8 @@
   <artifactId>ui</artifactId>
   <versioning>
     <versions>
-      <version>0.11.0-SNAPSHOT</version>
+      <version>0.11.5-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20181120155756</lastUpdated>
+    <lastUpdated>20190108143752</lastUpdated>
   </versioning>
 </metadata>
