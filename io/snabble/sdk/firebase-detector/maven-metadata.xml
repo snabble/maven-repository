@@ -4,8 +4,8 @@
   <artifactId>firebase-detector</artifactId>
   <versioning>
     <versions>
-      <version>0.11.5-SNAPSHOT</version>
+      <version>0.12.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20190109123041</lastUpdated>
+    <lastUpdated>20190110154855</lastUpdated>
   </versioning>
 </metadata>
