@@ -3,10 +3,10 @@
   <groupId>io.snabble.sdk</groupId>
   <artifactId>ui</artifactId>
   <versioning>
-    <release>0.12.1</release>
+    <release>0.12.2</release>
     <versions>
-      <version>0.12.1</version>
+      <version>0.12.2</version>
     </versions>
-    <lastUpdated>20190211153317</lastUpdated>
+    <lastUpdated>20190212160052</lastUpdated>
   </versioning>
 </metadata>
