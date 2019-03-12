@@ -4,8 +4,8 @@
   <artifactId>core</artifactId>
   <versioning>
     <versions>
-      <version>0.12.0-SNAPSHOT</version>
+      <version>0.13.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20190110154842</lastUpdated>
+    <lastUpdated>20190312120501</lastUpdated>
   </versioning>
 </metadata>
