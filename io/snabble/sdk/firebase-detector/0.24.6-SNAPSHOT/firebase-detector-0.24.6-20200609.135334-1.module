@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.snabble.sdk",
+    "module": "firebase-detector",
+    "version": "0.24.6-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "4hu6kew2fnfs5mmeyqbymjjzou"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "firebase-detector-0.24.6-SNAPSHOT.aar",
+          "url": "firebase-detector-0.24.6-SNAPSHOT.aar",
+          "size": 31212,
+          "sha512": "bf09546d6a743ed3ee6862754cddf3705a9e5324dcd02ae12c87c0ae614a8b0a60601724a7c175b44ad60e8c46507b896d0d6c2509a101b67ad279780f4d14df",
+          "sha256": "6828ffa15a6e0702570203b75b06b44bd5ae949cec1330f86dd48358cf795d3d",
+          "sha1": "628b45a3e23005340b9eb82114a429751164dcb3",
+          "md5": "019cd9353393ed53cd58e36f06610393"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.snabble.sdk",
+          "module": "core",
+          "version": {
+            "requires": "0.24.6-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.snabble.sdk",
+          "module": "ui",
+          "version": {
+            "requires": "0.24.6-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.snabble.sdk",
+          "module": "utils",
+          "version": {
+            "requires": "0.24.6-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-ml-vision",
+          "version": {
+            "requires": "18.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "firebase-detector-0.24.6-SNAPSHOT.aar",
+          "url": "firebase-detector-0.24.6-SNAPSHOT.aar",
+          "size": 31212,
+          "sha512": "bf09546d6a743ed3ee6862754cddf3705a9e5324dcd02ae12c87c0ae614a8b0a60601724a7c175b44ad60e8c46507b896d0d6c2509a101b67ad279780f4d14df",
+          "sha256": "6828ffa15a6e0702570203b75b06b44bd5ae949cec1330f86dd48358cf795d3d",
+          "sha1": "628b45a3e23005340b9eb82114a429751164dcb3",
+          "md5": "019cd9353393ed53cd58e36f06610393"
+        }
+      ]
+    }
+  ]
+}
