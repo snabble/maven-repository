@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.snabble.sdk",
+    "module": "firebase-detector",
+    "version": "0.25.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "sju4g5fjoze6pnwveeiadmeyny"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "firebase-detector-0.25.6.aar",
+          "url": "firebase-detector-0.25.6.aar",
+          "size": 31221,
+          "sha512": "233c9718920e1e94271a753dfefde3f2e89295b8ab16643daad0323b27c8e1c1ec601f9b87cef851b62f370845d6dd972a4e2c612078a72f52f5af4da4e4d31b",
+          "sha256": "7d8d286b19c3e54defe3bab3998e6b9779b8476157a991ac6893cb1f2425e35c",
+          "sha1": "fccbb30e643c44dfacc86ba255616c52f5d672f0",
+          "md5": "a4600790389ef456a4ebec18cd27081b"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.snabble.sdk",
+          "module": "core",
+          "version": {
+            "requires": "0.25.6"
+          }
+        },
+        {
+          "group": "io.snabble.sdk",
+          "module": "ui",
+          "version": {
+            "requires": "0.25.6"
+          }
+        },
+        {
+          "group": "io.snabble.sdk",
+          "module": "utils",
+          "version": {
+            "requires": "0.25.6"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-ml-vision",
+          "version": {
+            "requires": "18.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "firebase-detector-0.25.6.aar",
+          "url": "firebase-detector-0.25.6.aar",
+          "size": 31221,
+          "sha512": "233c9718920e1e94271a753dfefde3f2e89295b8ab16643daad0323b27c8e1c1ec601f9b87cef851b62f370845d6dd972a4e2c612078a72f52f5af4da4e4d31b",
+          "sha256": "7d8d286b19c3e54defe3bab3998e6b9779b8476157a991ac6893cb1f2425e35c",
+          "sha1": "fccbb30e643c44dfacc86ba255616c52f5d672f0",
+          "md5": "a4600790389ef456a4ebec18cd27081b"
+        }
+      ]
+    }
+  ]
+}
