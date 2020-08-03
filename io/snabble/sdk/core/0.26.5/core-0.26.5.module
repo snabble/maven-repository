@@ -1,0 +1,140 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.snabble.sdk",
+    "module": "core",
+    "version": "0.26.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "ku2qoeh3pjf6vacpm4ky4tevhi"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.7.2"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-0.26.5.aar",
+          "url": "core-0.26.5.aar",
+          "size": 273364,
+          "sha512": "52fbcf2b4026c21a31c1100f5f7eca0bc9c0061549bcb923c4785f5d2bfeeb07bf62f17d12c107e7b2765d1349a13be3a48d4eb7fbd831fdf262836cf26640f1",
+          "sha256": "2fb0ea7d56971a076f3de512b742af69d712f5d8fac17b8c8024eb96ad3c33c6",
+          "sha1": "39af944c560834c02270413f8282e30201c20c9a",
+          "md5": "9ba54286506c45b9fa3c36a5b1cf1852"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.snabble.sdk",
+          "module": "utils",
+          "version": {
+            "requires": "0.26.5"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.5"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.8.1"
+          }
+        },
+        {
+          "group": "org.iban4j",
+          "module": "iban4j",
+          "version": {
+            "requires": "3.2.1"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.7.2"
+          }
+        },
+        {
+          "group": "com.caverock",
+          "module": "androidsvg-aar",
+          "version": {
+            "requires": "1.4"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.7.2"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-0.26.5.aar",
+          "url": "core-0.26.5.aar",
+          "size": 273364,
+          "sha512": "52fbcf2b4026c21a31c1100f5f7eca0bc9c0061549bcb923c4785f5d2bfeeb07bf62f17d12c107e7b2765d1349a13be3a48d4eb7fbd831fdf262836cf26640f1",
+          "sha256": "2fb0ea7d56971a076f3de512b742af69d712f5d8fac17b8c8024eb96ad3c33c6",
+          "sha1": "39af944c560834c02270413f8282e30201c20c9a",
+          "md5": "9ba54286506c45b9fa3c36a5b1cf1852"
+        }
+      ]
+    }
+  ]
+}
