@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.snabble.sdk",
+    "module": "utils",
+    "version": "0.27.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "kpma7flhhrbh3fzlac4443wfzi"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "utils-0.27.2.aar",
+          "url": "utils-0.27.2.aar",
+          "size": 39950,
+          "sha512": "e7fdd79d2209438e2791ece830b600a21a419012ad7e825d205c56857a223f3cad8d1ba4864736f45145bc67d61126e9511bbb0208d6e40122a47a82fe8555b6",
+          "sha256": "36045ba6984c14c60843cf89c5dde6357a043fd365c1fd9a98d20ec6548f9390",
+          "sha1": "788ff416885b646446dfd960cd06d3a8f6961a93",
+          "md5": "3c322bb8e3f2639fef53cd20c5795d24"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.5"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.7.2"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "utils-0.27.2.aar",
+          "url": "utils-0.27.2.aar",
+          "size": 39950,
+          "sha512": "e7fdd79d2209438e2791ece830b600a21a419012ad7e825d205c56857a223f3cad8d1ba4864736f45145bc67d61126e9511bbb0208d6e40122a47a82fe8555b6",
+          "sha256": "36045ba6984c14c60843cf89c5dde6357a043fd365c1fd9a98d20ec6548f9390",
+          "sha1": "788ff416885b646446dfd960cd06d3a8f6961a93",
+          "md5": "3c322bb8e3f2639fef53cd20c5795d24"
+        }
+      ]
+    }
+  ]
+}
