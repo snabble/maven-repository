@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.snabble.sdk</groupId>
+  <artifactId>firebase-detector</artifactId>
+  <version>0.27.3</version>
+  <packaging>aar</packaging>
+  <url>https://github.com/snabble/Android-SDK</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>io.snabble.sdk</groupId>
+      <artifactId>core</artifactId>
+      <version>0.27.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.snabble.sdk</groupId>
+      <artifactId>ui</artifactId>
+      <version>0.27.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.snabble.sdk</groupId>
+      <artifactId>utils</artifactId>
+      <version>0.27.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-ml-vision</artifactId>
+      <version>18.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
