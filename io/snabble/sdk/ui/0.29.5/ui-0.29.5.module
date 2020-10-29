@@ -1,0 +1,189 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.snabble.sdk",
+    "module": "ui",
+    "version": "0.29.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "7xnk7aj5prhfvhghio4a2dcuqq"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-0.29.5.aar",
+          "url": "ui-0.29.5.aar",
+          "size": 833764,
+          "sha512": "b385239d841b9561ce73fdc88e1c971c0b75bd7a1ec0a3f593ba8da696466cf550f95c2f54ca70434d1c69e9c3196299510986b690f9b1107ee2d8a79aa95e1f",
+          "sha256": "eb727c1f3b679158fed8524dc28e55004bfe8c3d2f274f34ac2308c25656cfe9",
+          "sha1": "633f2f2bf5062c77f29de164baa2ce5fb0447476",
+          "md5": "531ed1a621b24f4a808180c949453606"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-android-extensions-runtime",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "io.snabble.sdk",
+          "module": "utils",
+          "version": {
+            "requires": "0.29.5"
+          }
+        },
+        {
+          "group": "io.snabble.sdk",
+          "module": "core",
+          "version": {
+            "requires": "0.29.5"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.cardview",
+          "module": "cardview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.swiperefreshlayout",
+          "module": "swiperefreshlayout",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.webkit",
+          "module": "webkit",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "androidx.viewpager2",
+          "module": "viewpager2",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "com.google.android",
+          "module": "flexbox",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "me.relex",
+          "module": "circleindicator",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.5"
+          }
+        },
+        {
+          "group": "com.google.zxing",
+          "module": "core",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "com.squareup.picasso",
+          "module": "picasso",
+          "version": {
+            "requires": "2.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-0.29.5.aar",
+          "url": "ui-0.29.5.aar",
+          "size": 833764,
+          "sha512": "b385239d841b9561ce73fdc88e1c971c0b75bd7a1ec0a3f593ba8da696466cf550f95c2f54ca70434d1c69e9c3196299510986b690f9b1107ee2d8a79aa95e1f",
+          "sha256": "eb727c1f3b679158fed8524dc28e55004bfe8c3d2f274f34ac2308c25656cfe9",
+          "sha1": "633f2f2bf5062c77f29de164baa2ce5fb0447476",
+          "md5": "531ed1a621b24f4a808180c949453606"
+        }
+      ]
+    }
+  ]
+}
