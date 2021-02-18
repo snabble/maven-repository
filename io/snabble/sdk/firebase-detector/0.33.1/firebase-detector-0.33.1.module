@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.snabble.sdk",
+    "module": "firebase-detector",
+    "version": "0.33.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "dyzxkmtlm5g6dgcrd6zzdd3d4i"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "firebase-detector-0.33.1.aar",
+          "url": "firebase-detector-0.33.1.aar",
+          "size": 33045,
+          "sha512": "7fec4932c2517f5ff710e19b85fadd1e78a3657eb5382a1d4c1d44d2cb3d725417f5b169b7c23c2e4cabd4e30badf4eddb6ceb05fbca356762cc3afd33d39961",
+          "sha256": "098b181679cfa58cf1ee7d46d737233ed7149491111097cfcd70634be43afc16",
+          "sha1": "6f35278ad2b1f5d57ad0249ec4112c6515408f43",
+          "md5": "c8bc6da43c3692b823d1c7956c70a1b1"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-android-extensions-runtime",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "io.snabble.sdk",
+          "module": "core",
+          "version": {
+            "requires": "0.33.1"
+          }
+        },
+        {
+          "group": "io.snabble.sdk",
+          "module": "ui",
+          "version": {
+            "requires": "0.33.1"
+          }
+        },
+        {
+          "group": "io.snabble.sdk",
+          "module": "utils",
+          "version": {
+            "requires": "0.33.1"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-ml-vision",
+          "version": {
+            "requires": "18.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "firebase-detector-0.33.1.aar",
+          "url": "firebase-detector-0.33.1.aar",
+          "size": 33045,
+          "sha512": "7fec4932c2517f5ff710e19b85fadd1e78a3657eb5382a1d4c1d44d2cb3d725417f5b169b7c23c2e4cabd4e30badf4eddb6ceb05fbca356762cc3afd33d39961",
+          "sha256": "098b181679cfa58cf1ee7d46d737233ed7149491111097cfcd70634be43afc16",
+          "sha1": "6f35278ad2b1f5d57ad0249ec4112c6515408f43",
+          "md5": "c8bc6da43c3692b823d1c7956c70a1b1"
+        }
+      ]
+    }
+  ]
+}
