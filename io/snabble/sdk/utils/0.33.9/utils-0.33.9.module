@@ -1,0 +1,119 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.snabble.sdk",
+    "module": "utils",
+    "version": "0.33.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "zkg6uzae5rgc7jrecxs5irklp4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "utils-0.33.9.aar",
+          "url": "utils-0.33.9.aar",
+          "size": 42945,
+          "sha512": "daf4d54bc72f198466e174e5f0c4d74ffa8e470056c236e29020f0ea1a91774b5f293f97a1c666a85624554573052ec1977ce3c281def83d1dc5c5d14c967fc7",
+          "sha256": "4e25bbd6ab8e6d9865469e96809d0bc0f226eaa831cfe9f5e4346169ae958065",
+          "sha1": "f5a5b095ce1e6421651e47bfef2fc1c098bfdce9",
+          "md5": "52273f17eb2f4665ac58c4dabd32fdda"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-android-extensions-runtime",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.5"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp-tls",
+          "version": {
+            "requires": "4.9.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "utils-0.33.9.aar",
+          "url": "utils-0.33.9.aar",
+          "size": 42945,
+          "sha512": "daf4d54bc72f198466e174e5f0c4d74ffa8e470056c236e29020f0ea1a91774b5f293f97a1c666a85624554573052ec1977ce3c281def83d1dc5c5d14c967fc7",
+          "sha256": "4e25bbd6ab8e6d9865469e96809d0bc0f226eaa831cfe9f5e4346169ae958065",
+          "sha1": "f5a5b095ce1e6421651e47bfef2fc1c098bfdce9",
+          "md5": "52273f17eb2f4665ac58c4dabd32fdda"
+        }
+      ]
+    }
+  ]
+}
