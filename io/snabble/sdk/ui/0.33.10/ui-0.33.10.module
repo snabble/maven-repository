@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.5",
-      "buildId": "ta5wvzrp7nfbbdzbqwcr2esnri"
+      "buildId": "tean77tudrg43fh3xguyqzorom"
     }
   },
   "variants": [
@@ -36,11 +36,11 @@
         {
           "name": "ui-0.33.10.aar",
           "url": "ui-0.33.10.aar",
-          "size": 902166,
-          "sha512": "0e33884d51600cebb5b1a5335d847d1860b49d17c659eafc27bb9f3b269dee31aa9b89e56c8b25675cab5a2d713457980f2afc3e42b11a96a13c1e24978002c2",
-          "sha256": "9ffa0b691f3cbcaae9e7926a8a8cb9831cbc702f78ed5b810dd32aed0971d908",
-          "sha1": "47ddc3d33f88f88260b0f5766a407a6fa0bca031",
-          "md5": "fca9bbb87103966ea7877554ec5c1663"
+          "size": 910183,
+          "sha512": "de5a4f4465c44b9c3a3beb64401db80d1c0c27007b05f4b7a858be6bea957689e37b21b2887d16cb5c45f8749da30043a261a8d1241523b1a4316819a75bacb7",
+          "sha256": "fa91668b674c810162bfa07ffbecbba82f5ed468b27561b29f56ceaadc98465b",
+          "sha1": "57695a895e98934554f1c0f3e1d399241bb9c039",
+          "md5": "6547a786b55fe72782d685b9561e41e7"
         }
       ]
     },
@@ -99,7 +99,7 @@
           "group": "androidx.recyclerview",
           "module": "recyclerview",
           "version": {
-            "requires": "1.2.0-beta01"
+            "requires": "1.2.0-beta02"
           }
         },
         {
@@ -134,7 +134,7 @@
           "group": "com.google.android.material",
           "module": "material",
           "version": {
-            "requires": "1.2.1"
+            "requires": "1.3.0"
           }
         },
         {
@@ -155,35 +155,35 @@
           "group": "androidx.camera",
           "module": "camera-core",
           "version": {
-            "requires": "1.0.0-rc02"
+            "requires": "1.0.0-rc03"
           }
         },
         {
           "group": "androidx.camera",
           "module": "camera-camera2",
           "version": {
-            "requires": "1.0.0-rc02"
+            "requires": "1.0.0-rc03"
           }
         },
         {
           "group": "androidx.camera",
           "module": "camera-lifecycle",
           "version": {
-            "requires": "1.0.0-rc02"
+            "requires": "1.0.0-rc03"
           }
         },
         {
           "group": "androidx.camera",
           "module": "camera-view",
           "version": {
-            "requires": "1.0.0-alpha21"
+            "requires": "1.0.0-alpha22"
           }
         },
         {
           "group": "androidx.camera",
           "module": "camera-extensions",
           "version": {
-            "requires": "1.0.0-alpha21"
+            "requires": "1.0.0-alpha22"
           }
         },
         {
@@ -212,11 +212,11 @@
         {
           "name": "ui-0.33.10.aar",
           "url": "ui-0.33.10.aar",
-          "size": 902166,
-          "sha512": "0e33884d51600cebb5b1a5335d847d1860b49d17c659eafc27bb9f3b269dee31aa9b89e56c8b25675cab5a2d713457980f2afc3e42b11a96a13c1e24978002c2",
-          "sha256": "9ffa0b691f3cbcaae9e7926a8a8cb9831cbc702f78ed5b810dd32aed0971d908",
-          "sha1": "47ddc3d33f88f88260b0f5766a407a6fa0bca031",
-          "md5": "fca9bbb87103966ea7877554ec5c1663"
+          "size": 910183,
+          "sha512": "de5a4f4465c44b9c3a3beb64401db80d1c0c27007b05f4b7a858be6bea957689e37b21b2887d16cb5c45f8749da30043a261a8d1241523b1a4316819a75bacb7",
+          "sha256": "fa91668b674c810162bfa07ffbecbba82f5ed468b27561b29f56ceaadc98465b",
+          "sha1": "57695a895e98934554f1c0f3e1d399241bb9c039",
+          "md5": "6547a786b55fe72782d685b9561e41e7"
         }
       ]
     }
