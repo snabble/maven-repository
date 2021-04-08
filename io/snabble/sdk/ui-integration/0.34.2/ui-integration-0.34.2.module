@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.snabble.sdk",
+    "module": "ui-integration",
+    "version": "0.34.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "5gw7267myzcbvkhbrhqmed3q3a"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-integration-0.34.2.aar",
+          "url": "ui-integration-0.34.2.aar",
+          "size": 92862,
+          "sha512": "d0ac126f09c7d79b9cf6eeebc5fba93018a22eb6c460b68f390fb4cb60679c4b8138ec8f7a40f3a489241407bf3097963a007b54c55a39a2623903a5598faa71",
+          "sha256": "adf31085d020d7116d2954b4b68ddedd43e889b72551279a1aa19079ce424d93",
+          "sha1": "63e0506dcff8f4be9a3f5bd3dda1dfceef9e1ff5",
+          "md5": "23e210949106c73d122f475c5b6f2bfd"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-android-extensions-runtime",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "io.snabble.sdk",
+          "module": "core",
+          "version": {
+            "requires": "0.34.2"
+          }
+        },
+        {
+          "group": "io.snabble.sdk",
+          "module": "ui",
+          "version": {
+            "requires": "0.34.2"
+          }
+        },
+        {
+          "group": "io.snabble.sdk",
+          "module": "utils",
+          "version": {
+            "requires": "0.34.2"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-integration-0.34.2.aar",
+          "url": "ui-integration-0.34.2.aar",
+          "size": 92862,
+          "sha512": "d0ac126f09c7d79b9cf6eeebc5fba93018a22eb6c460b68f390fb4cb60679c4b8138ec8f7a40f3a489241407bf3097963a007b54c55a39a2623903a5598faa71",
+          "sha256": "adf31085d020d7116d2954b4b68ddedd43e889b72551279a1aa19079ce424d93",
+          "sha1": "63e0506dcff8f4be9a3f5bd3dda1dfceef9e1ff5",
+          "md5": "23e210949106c73d122f475c5b6f2bfd"
+        }
+      ]
+    }
+  ]
+}
