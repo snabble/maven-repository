@@ -1,0 +1,224 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.snabble.sdk",
+    "module": "ui",
+    "version": "0.34.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "7wqcqhpzwnarvmbkfgqkjvi3ay"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-0.34.3.aar",
+          "url": "ui-0.34.3.aar",
+          "size": 910951,
+          "sha512": "5538fa071d6149782471b0646477a5c39c46fb8a40f9e849b7bead42560c5b3dca9074cdd8a5683a76d24af3c320095959e0f7473014e163b7199fffd43c1195",
+          "sha256": "5d44d89412edba949c399a611db8d34195e28e0ae3e281534b6488a3354b4598",
+          "sha1": "c6ad76c153750d6d4c6f79bf6384526ec273cc4b",
+          "md5": "94e48ea423d503b4e3801a9160820881"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-android-extensions-runtime",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "io.snabble.sdk",
+          "module": "utils",
+          "version": {
+            "requires": "0.34.3"
+          }
+        },
+        {
+          "group": "io.snabble.sdk",
+          "module": "core",
+          "version": {
+            "requires": "0.34.3"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.cardview",
+          "module": "cardview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.swiperefreshlayout",
+          "module": "swiperefreshlayout",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.webkit",
+          "module": "webkit",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.viewpager2",
+          "module": "viewpager2",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "com.google.android",
+          "module": "flexbox",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "me.relex",
+          "module": "circleindicator",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-core",
+          "version": {
+            "requires": "1.0.0-rc04"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-camera2",
+          "version": {
+            "requires": "1.0.0-rc04"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-lifecycle",
+          "version": {
+            "requires": "1.0.0-rc04"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-view",
+          "version": {
+            "requires": "1.0.0-alpha23"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-extensions",
+          "version": {
+            "requires": "1.0.0-alpha23"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.5"
+          }
+        },
+        {
+          "group": "com.google.zxing",
+          "module": "core",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "com.squareup.picasso",
+          "module": "picasso",
+          "version": {
+            "requires": "2.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-0.34.3.aar",
+          "url": "ui-0.34.3.aar",
+          "size": 910951,
+          "sha512": "5538fa071d6149782471b0646477a5c39c46fb8a40f9e849b7bead42560c5b3dca9074cdd8a5683a76d24af3c320095959e0f7473014e163b7199fffd43c1195",
+          "sha256": "5d44d89412edba949c399a611db8d34195e28e0ae3e281534b6488a3354b4598",
+          "sha1": "c6ad76c153750d6d4c6f79bf6384526ec273cc4b",
+          "md5": "94e48ea423d503b4e3801a9160820881"
+        }
+      ]
+    }
+  ]
+}
