@@ -1,0 +1,161 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.snabble.sdk",
+    "module": "core",
+    "version": "0.34.4-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "7yhoyjuslngstjpslwef5pjkey"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.9.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-0.34.4-SNAPSHOT.aar",
+          "url": "core-0.34.4-SNAPSHOT.aar",
+          "size": 330069,
+          "sha512": "f9eb23cd569fa25e9de6af8dc0a604951f6a72ae4473d7343996f4f982cc026c619fda4f5bd56da3a434a36adbb85190d283a4d15a9057629a8835fcfb25bbe1",
+          "sha256": "306ac23d8cdfe2b2fb95a96b7837cadbebc345556ada4d978cbb6be47c942aa1",
+          "sha1": "c7bcec7c3654f45d7fc135f23370462a90885979",
+          "md5": "e85d0ec16a6c4e432c69ce4331942754"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.9.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-android-extensions-runtime",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "io.snabble.sdk",
+          "module": "utils",
+          "version": {
+            "requires": "0.34.4-SNAPSHOT"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.5"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.8.1"
+          }
+        },
+        {
+          "group": "org.iban4j",
+          "module": "iban4j",
+          "version": {
+            "requires": "3.2.1"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.9.1"
+          }
+        },
+        {
+          "group": "com.caverock",
+          "module": "androidsvg-aar",
+          "version": {
+            "requires": "1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-0.34.4-SNAPSHOT.aar",
+          "url": "core-0.34.4-SNAPSHOT.aar",
+          "size": 330069,
+          "sha512": "f9eb23cd569fa25e9de6af8dc0a604951f6a72ae4473d7343996f4f982cc026c619fda4f5bd56da3a434a36adbb85190d283a4d15a9057629a8835fcfb25bbe1",
+          "sha256": "306ac23d8cdfe2b2fb95a96b7837cadbebc345556ada4d978cbb6be47c942aa1",
+          "sha1": "c7bcec7c3654f45d7fc135f23370462a90885979",
+          "md5": "e85d0ec16a6c4e432c69ce4331942754"
+        }
+      ]
+    }
+  ]
+}
