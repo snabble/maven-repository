@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.5",
-      "buildId": "qlv47m7pbrf6dezneuybjbi45y"
+      "buildId": "e4caw626qvb47aym7hvy7tpbsm"
     }
   },
   "variants": [
@@ -36,11 +36,11 @@
         {
           "name": "ui-0.35.3.aar",
           "url": "ui-0.35.3.aar",
-          "size": 957461,
-          "sha512": "f8b411bec169bbfcc9bda961681cc4a288768eac417f6cb84cb9f348e36c12109e60df5e863b7bae7f85cd857cb3206f789820e6101b2bc100312d520b6f4437",
-          "sha256": "bac762e54f6586eaed09e933974419d4f4608bdce5065d547c45df6b70966150",
-          "sha1": "fabdbe528bfc5ae55153c90f4c52c84b22246a70",
-          "md5": "8bfbb0df0120cd78ee099cd533b82c17"
+          "size": 957555,
+          "sha512": "816befcff2d1a0f18db134164aca7a768b9e46d1c11d18bf55edb7a757e4d4a8f019fc2055b8f9497580c7b00256c8bee2598474e670c22cdaec535fc2e83b46",
+          "sha256": "a848f12dc7cb199d49168bd6ab07647f786cdad282a1943940a29826cb5a42fd",
+          "sha1": "90567fd4b5c44c7bae4558d59611bd46f947d205",
+          "md5": "5fe43a9646630ae65e551eeee855b736"
         }
       ]
     },
@@ -212,11 +212,11 @@
         {
           "name": "ui-0.35.3.aar",
           "url": "ui-0.35.3.aar",
-          "size": 957461,
-          "sha512": "f8b411bec169bbfcc9bda961681cc4a288768eac417f6cb84cb9f348e36c12109e60df5e863b7bae7f85cd857cb3206f789820e6101b2bc100312d520b6f4437",
-          "sha256": "bac762e54f6586eaed09e933974419d4f4608bdce5065d547c45df6b70966150",
-          "sha1": "fabdbe528bfc5ae55153c90f4c52c84b22246a70",
-          "md5": "8bfbb0df0120cd78ee099cd533b82c17"
+          "size": 957555,
+          "sha512": "816befcff2d1a0f18db134164aca7a768b9e46d1c11d18bf55edb7a757e4d4a8f019fc2055b8f9497580c7b00256c8bee2598474e670c22cdaec535fc2e83b46",
+          "sha256": "a848f12dc7cb199d49168bd6ab07647f786cdad282a1943940a29826cb5a42fd",
+          "sha1": "90567fd4b5c44c7bae4558d59611bd46f947d205",
+          "md5": "5fe43a9646630ae65e551eeee855b736"
         }
       ]
     }
