@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.samsung.android.sdk</groupId>
+  <artifactId>samsungpay</artifactId>
+  <version>2.8.00</version>
+  <versioning>
+    <latest>2.8.00</latest>
+    <release>2.8.00</release>
+    <versions>
+      <version>2.8.00</version>
+    </versions>
+    <lastUpdated>20210416103043</lastUpdated>
+  </versioning>
+</metadata>
