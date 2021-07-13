@@ -1,0 +1,161 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.snabble.sdk",
+    "module": "core",
+    "version": "0.40.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "7mfnvapylnan7j3rqc6eziut7y"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.9.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-0.40.0.aar",
+          "url": "core-0.40.0.aar",
+          "size": 371466,
+          "sha512": "71416e1033f6c08caa5fc0595c70ef27d7512ef0ba38aa17b241da165b0b614c0ab3e0ed6aca9ae996ab12a85bc369734c5219932ddae7075f25ad59f36de785",
+          "sha256": "296a0686f4c292b3f139832ef2221e2c524b1f53ff4f1e6f49cf41097da6b4b4",
+          "sha1": "3bde429b41ac43ef9eb13efd7a60f3c87661928b",
+          "md5": "ca3585b78eca70e5878d1aa487bf16e5"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.9.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.20"
+          }
+        },
+        {
+          "group": "io.snabble.sdk",
+          "module": "utils",
+          "version": {
+            "requires": "0.40.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.5"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.8.1"
+          }
+        },
+        {
+          "group": "org.iban4j",
+          "module": "iban4j",
+          "version": {
+            "requires": "3.2.1"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.9.1"
+          }
+        },
+        {
+          "group": "com.caverock",
+          "module": "androidsvg-aar",
+          "version": {
+            "requires": "1.4"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-wallet",
+          "version": {
+            "requires": "18.1.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-0.40.0.aar",
+          "url": "core-0.40.0.aar",
+          "size": 371466,
+          "sha512": "71416e1033f6c08caa5fc0595c70ef27d7512ef0ba38aa17b241da165b0b614c0ab3e0ed6aca9ae996ab12a85bc369734c5219932ddae7075f25ad59f36de785",
+          "sha256": "296a0686f4c292b3f139832ef2221e2c524b1f53ff4f1e6f49cf41097da6b4b4",
+          "sha1": "3bde429b41ac43ef9eb13efd7a60f3c87661928b",
+          "md5": "ca3585b78eca70e5878d1aa487bf16e5"
+        }
+      ]
+    }
+  ]
+}
