@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.snabble.sdk",
+    "module": "firebase-detector",
+    "version": "0.60.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "firebase-detector-0.60.2.aar",
+          "url": "firebase-detector-0.60.2.aar",
+          "size": 51523,
+          "sha512": "1e1e90cc7ae433afd3020fa0b5e416e8ecffe2e22d6c937af47cd67ad70f73f96415a2bb7c8789e11c13f4ef4eeed07d86408bb3413ce02e4e74e77d0074524a",
+          "sha256": "6ab6ace256b53389e6fde9e8da8f2526087d985f605d2e04877550c1ccdfe046",
+          "sha1": "024f750fed82aa7e2c6025befb0959ffb916afb8",
+          "md5": "f2b5558ea89b4b355e578b929a3f90e8"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "io.snabble.sdk",
+          "module": "core",
+          "version": {
+            "requires": "0.60.2"
+          }
+        },
+        {
+          "group": "io.snabble.sdk",
+          "module": "ui",
+          "version": {
+            "requires": "0.60.2"
+          }
+        },
+        {
+          "group": "io.snabble.sdk",
+          "module": "utils",
+          "version": {
+            "requires": "0.60.2"
+          }
+        },
+        {
+          "group": "com.google.mlkit",
+          "module": "barcode-scanning",
+          "version": {
+            "requires": "17.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "firebase-detector-0.60.2.aar",
+          "url": "firebase-detector-0.60.2.aar",
+          "size": 51523,
+          "sha512": "1e1e90cc7ae433afd3020fa0b5e416e8ecffe2e22d6c937af47cd67ad70f73f96415a2bb7c8789e11c13f4ef4eeed07d86408bb3413ce02e4e74e77d0074524a",
+          "sha256": "6ab6ace256b53389e6fde9e8da8f2526087d985f605d2e04877550c1ccdfe046",
+          "sha1": "024f750fed82aa7e2c6025befb0959ffb916afb8",
+          "md5": "f2b5558ea89b4b355e578b929a3f90e8"
+        }
+      ]
+    }
+  ]
+}
