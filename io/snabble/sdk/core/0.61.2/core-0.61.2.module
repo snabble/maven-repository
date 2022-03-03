@@ -1,0 +1,174 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.snabble.sdk",
+    "module": "core",
+    "version": "0.61.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.9.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-0.61.2.aar",
+          "url": "core-0.61.2.aar",
+          "size": 430431,
+          "sha512": "61f580ee40a2307a4ac247f193d6ad2d2ac5706a22b236b0a61a2ba489662cd7a66ba7ca862c16d4dc1b500b9014b18839526235bb13454f5676a3902347152a",
+          "sha256": "0bb2720a718730f9ff61b657f71e5aa2d8701d2bc17520a8595d935bb5ffa89a",
+          "sha1": "1afc3350f11ca215f7cab4fbf012e844554ae56f",
+          "md5": "8729595f0dcf6159a15ffff7a6254bd3"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.9.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "io.snabble.sdk",
+          "module": "utils",
+          "version": {
+            "requires": "0.61.2"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.5"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.12.0"
+          }
+        },
+        {
+          "group": "org.iban4j",
+          "module": "iban4j",
+          "version": {
+            "requires": "3.2.1"
+          }
+        },
+        {
+          "group": "com.caverock",
+          "module": "androidsvg-aar",
+          "version": {
+            "requires": "1.4"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-wallet",
+          "version": {
+            "requires": "19.1.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.biometric",
+          "module": "biometric",
+          "version": {
+            "requires": "1.2.0-alpha04"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.9.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-0.61.2.aar",
+          "url": "core-0.61.2.aar",
+          "size": 430431,
+          "sha512": "61f580ee40a2307a4ac247f193d6ad2d2ac5706a22b236b0a61a2ba489662cd7a66ba7ca862c16d4dc1b500b9014b18839526235bb13454f5676a3902347152a",
+          "sha256": "0bb2720a718730f9ff61b657f71e5aa2d8701d2bc17520a8595d935bb5ffa89a",
+          "sha1": "1afc3350f11ca215f7cab4fbf012e844554ae56f",
+          "md5": "8729595f0dcf6159a15ffff7a6254bd3"
+        }
+      ]
+    }
+  ]
+}
