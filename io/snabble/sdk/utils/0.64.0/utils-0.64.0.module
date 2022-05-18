@@ -35,11 +35,11 @@
         {
           "name": "utils-0.64.0.aar",
           "url": "utils-0.64.0.aar",
-          "size": 46416,
-          "sha512": "0c0b28615a8e156c976447ce6773f40da033b26344d4c274363362039a2ce7e1c0fdf506d2b72fc26bd30423d44ee5530d9cda4e51d7fd86fe4077266dff65e4",
-          "sha256": "9bcddae92f086d52c2915674d81891516dac1de6b53c9eb27386ca687b341e86",
-          "sha1": "545c0a80ab90f0bd2e949561b2cc74221078bd9b",
-          "md5": "9dd32a78cf428e0b486e1f84fcd88891"
+          "size": 46635,
+          "sha512": "b8f8585a54c20302bb1b68d9a2cd3d6bcaae8a78337ef70846324252d8b9b10b79d4958c88458adb83a346cf8066da739879e9dfddb53ee6de02c78b850e809c",
+          "sha256": "b56f31f49e9b2c873f9d55816f23a7639887745fde9f9fef77d364699dfead37",
+          "sha1": "385d1f569810670dbbd77d77ba2b03b3f272d26d",
+          "md5": "d0f67e808efc229651912fc0401c90cb"
         }
       ]
     },
@@ -84,7 +84,7 @@
           "group": "androidx.appcompat",
           "module": "appcompat",
           "version": {
-            "requires": "1.3.1"
+            "requires": "1.4.1"
           }
         },
         {
@@ -99,11 +99,11 @@
         {
           "name": "utils-0.64.0.aar",
           "url": "utils-0.64.0.aar",
-          "size": 46416,
-          "sha512": "0c0b28615a8e156c976447ce6773f40da033b26344d4c274363362039a2ce7e1c0fdf506d2b72fc26bd30423d44ee5530d9cda4e51d7fd86fe4077266dff65e4",
-          "sha256": "9bcddae92f086d52c2915674d81891516dac1de6b53c9eb27386ca687b341e86",
-          "sha1": "545c0a80ab90f0bd2e949561b2cc74221078bd9b",
-          "md5": "9dd32a78cf428e0b486e1f84fcd88891"
+          "size": 46635,
+          "sha512": "b8f8585a54c20302bb1b68d9a2cd3d6bcaae8a78337ef70846324252d8b9b10b79d4958c88458adb83a346cf8066da739879e9dfddb53ee6de02c78b850e809c",
+          "sha256": "b56f31f49e9b2c873f9d55816f23a7639887745fde9f9fef77d364699dfead37",
+          "sha1": "385d1f569810670dbbd77d77ba2b03b3f272d26d",
+          "md5": "d0f67e808efc229651912fc0401c90cb"
         }
       ]
     }
