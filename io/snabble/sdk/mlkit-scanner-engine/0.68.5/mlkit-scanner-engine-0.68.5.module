@@ -35,11 +35,11 @@
         {
           "name": "mlkit-scanner-engine-0.68.5.aar",
           "url": "mlkit-scanner-engine-0.68.5.aar",
-          "size": 52406,
-          "sha512": "a0a44fff50c47f7621c1f8c79cb28c0c30cd8956e536d814579007ce14dc8b46a5dd4c79800b18c229fbdb2c688dcf9f40249f6937d1a8441019d892fb7118ad",
-          "sha256": "5b20130156623cbbb843352e9d061031d090a4c7889f5cfb9eecd93d821047a9",
-          "sha1": "7708a3c19afcd2ca0764538f8b8d2247794952d7",
-          "md5": "57d6941154c9cf917ef03f0bfd7de237"
+          "size": 52735,
+          "sha512": "5a19b339c2dbc097afab2f6dfe5db2ef97b7d7a1b49f570acb491aac8b9cd48dd3f9fdc181b828b2d09fcf1455d59e9953312bf290a1f0de5c66c9c6ff2585ff",
+          "sha256": "19da953f1fdd3fc9bbf65ffc4e1669a94a17a1d70c75f7bf9a0c2035dabf2d1f",
+          "sha1": "3635e80b51e3a015633400c5856f9f4aa3ee1a5c",
+          "md5": "6d646de069ac8d1d86fc3786db8a0062"
         }
       ]
     },
@@ -92,11 +92,11 @@
         {
           "name": "mlkit-scanner-engine-0.68.5.aar",
           "url": "mlkit-scanner-engine-0.68.5.aar",
-          "size": 52406,
-          "sha512": "a0a44fff50c47f7621c1f8c79cb28c0c30cd8956e536d814579007ce14dc8b46a5dd4c79800b18c229fbdb2c688dcf9f40249f6937d1a8441019d892fb7118ad",
-          "sha256": "5b20130156623cbbb843352e9d061031d090a4c7889f5cfb9eecd93d821047a9",
-          "sha1": "7708a3c19afcd2ca0764538f8b8d2247794952d7",
-          "md5": "57d6941154c9cf917ef03f0bfd7de237"
+          "size": 52735,
+          "sha512": "5a19b339c2dbc097afab2f6dfe5db2ef97b7d7a1b49f570acb491aac8b9cd48dd3f9fdc181b828b2d09fcf1455d59e9953312bf290a1f0de5c66c9c6ff2585ff",
+          "sha256": "19da953f1fdd3fc9bbf65ffc4e1669a94a17a1d70c75f7bf9a0c2035dabf2d1f",
+          "sha1": "3635e80b51e3a015633400c5856f9f4aa3ee1a5c",
+          "md5": "6d646de069ac8d1d86fc3786db8a0062"
         }
       ]
     }
