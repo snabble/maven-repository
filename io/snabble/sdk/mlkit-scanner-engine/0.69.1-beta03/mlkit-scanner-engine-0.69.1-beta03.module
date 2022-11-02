@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.snabble.sdk",
+    "module": "mlkit-scanner-engine",
+    "version": "0.69.1-beta03",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mlkit-scanner-engine-0.69.1-beta03.aar",
+          "url": "mlkit-scanner-engine-0.69.1-beta03.aar",
+          "size": 53111,
+          "sha512": "273e852a27b2b7e04f070b7a4a2eaa4124408f306216bec45c9471a7bddb675dfad697ca71462b1b80a983e40ef061ebf2ea66bc8bb70e68bed5b20dbbbc9952",
+          "sha256": "bd8d8fcd29f9b0d88d4f03511d0b9c4ec64de0c6b38cf042dcff0c3de24f64cc",
+          "sha1": "d6ad0af45a2aed2c6da957ed536eca40ebbc8b78",
+          "md5": "6cc5bf9b0288a7b393898e4c31c1ea0b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "io.snabble.sdk",
+          "module": "core",
+          "version": {
+            "requires": "0.69.1-beta03"
+          }
+        },
+        {
+          "group": "io.snabble.sdk",
+          "module": "ui",
+          "version": {
+            "requires": "0.69.1-beta03"
+          }
+        },
+        {
+          "group": "io.snabble.sdk",
+          "module": "utils",
+          "version": {
+            "requires": "0.69.1-beta03"
+          }
+        },
+        {
+          "group": "com.google.mlkit",
+          "module": "barcode-scanning",
+          "version": {
+            "requires": "17.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mlkit-scanner-engine-0.69.1-beta03.aar",
+          "url": "mlkit-scanner-engine-0.69.1-beta03.aar",
+          "size": 53111,
+          "sha512": "273e852a27b2b7e04f070b7a4a2eaa4124408f306216bec45c9471a7bddb675dfad697ca71462b1b80a983e40ef061ebf2ea66bc8bb70e68bed5b20dbbbc9952",
+          "sha256": "bd8d8fcd29f9b0d88d4f03511d0b9c4ec64de0c6b38cf042dcff0c3de24f64cc",
+          "sha1": "d6ad0af45a2aed2c6da957ed536eca40ebbc8b78",
+          "md5": "6cc5bf9b0288a7b393898e4c31c1ea0b"
+        }
+      ]
+    }
+  ]
+}
