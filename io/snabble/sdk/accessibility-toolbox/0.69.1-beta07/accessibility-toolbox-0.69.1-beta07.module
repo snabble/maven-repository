@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.snabble.sdk",
+    "module": "accessibility-toolbox",
+    "version": "0.69.1-beta07",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "accessibility-toolbox-0.69.1-beta07.aar",
+          "url": "accessibility-toolbox-0.69.1-beta07.aar",
+          "size": 25470,
+          "sha512": "bcbe5fa7b1cdaab8cc194ca67274c8e013897831d8c3b8ee5f3bd4a447df3854847b5c24567757a33c25c04a37442c86f8fd24c9a6169084ae77a44bd9fc7899",
+          "sha256": "3c24f635c16e3a638a057598a5e81ed91b4899795090b4e0f0f2ffbafe550bfa",
+          "sha1": "5a55a3860cb64dc3ebfbef1b6ee03b5aa2ac60fa",
+          "md5": "88885801216e88ac8da2c94684861f3e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "io.snabble.sdk",
+          "module": "utils",
+          "version": {
+            "requires": "0.69.1-beta07"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "accessibility-toolbox-0.69.1-beta07.aar",
+          "url": "accessibility-toolbox-0.69.1-beta07.aar",
+          "size": 25470,
+          "sha512": "bcbe5fa7b1cdaab8cc194ca67274c8e013897831d8c3b8ee5f3bd4a447df3854847b5c24567757a33c25c04a37442c86f8fd24c9a6169084ae77a44bd9fc7899",
+          "sha256": "3c24f635c16e3a638a057598a5e81ed91b4899795090b4e0f0f2ffbafe550bfa",
+          "sha1": "5a55a3860cb64dc3ebfbef1b6ee03b5aa2ac60fa",
+          "md5": "88885801216e88ac8da2c94684861f3e"
+        }
+      ]
+    }
+  ]
+}
