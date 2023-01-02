@@ -1,0 +1,36 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.snabble.versioning",
+    "module": "toml",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "toml-1.0.1.toml",
+          "url": "toml-1.0.1.toml",
+          "size": 6481,
+          "sha512": "b0565f2560c7ed225f8ffcad6642f1da17b6ed82b97ba647ec4289e5ca316f45092ba9bf20ef56bb468735c07646f8ad80d787c08ded8a91dc05d71d6d3d29de",
+          "sha256": "7806924388026e15758d291d4c907f574e894cf9585300d11e8fbeac74e9c48f",
+          "sha1": "65d0890672dd4dc65881388d57570a828d251fe2",
+          "md5": "64247a1c9c5d7a9d7208647bcd16039f"
+        }
+      ]
+    }
+  ]
+}
