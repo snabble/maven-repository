@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.snabble.pay",
+    "module": "shared",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "shared-1.0.0.aar",
+          "url": "shared-1.0.0.aar",
+          "size": 4601,
+          "sha512": "d1926720df91dd73d685aab65251af7fa9c8a0a2b51244c9755a582551ee1d86c810b3b148bd1541dcb44a01b4ad8680177b1d70ede882505006fcafad4cfcc7",
+          "sha256": "02a705b38319d0951e3df8172c43d6e21e466c2b1bc23bd4eb9806078b923824",
+          "sha1": "4baf1c4505472c671cdf5650ce7b45c7a7b4592e",
+          "md5": "9e158405f106ef9117a53ec57878746a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.snabble.pay",
+          "module": "api",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-android",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-android-compat",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "shared-1.0.0.aar",
+          "url": "shared-1.0.0.aar",
+          "size": 4601,
+          "sha512": "d1926720df91dd73d685aab65251af7fa9c8a0a2b51244c9755a582551ee1d86c810b3b148bd1541dcb44a01b4ad8680177b1d70ede882505006fcafad4cfcc7",
+          "sha256": "02a705b38319d0951e3df8172c43d6e21e466c2b1bc23bd4eb9806078b923824",
+          "sha1": "4baf1c4505472c671cdf5650ce7b45c7a7b4592e",
+          "md5": "9e158405f106ef9117a53ec57878746a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "shared-1.0.0-sources.jar",
+          "url": "shared-1.0.0-sources.jar",
+          "size": 2448,
+          "sha512": "6c8eefc23e80a8a32fcf6fc3c2cfa3430f1ba2dfce8ae3fc22f99cd9f9b90ecc488d5d5b75c5eb5bd9feec57d671239cd26a062fd835b827575ee0c2f72f59ff",
+          "sha256": "8d69d92b2b38f867ad8be09d3662cc719816dafdf7f699d656fe5440e15f94d5",
+          "sha1": "3af83fd85c2971d3d1d317dd79c98462bbd200b0",
+          "md5": "2557ec40369c0ed06164b09de296c25c"
+        }
+      ]
+    }
+  ]
+}

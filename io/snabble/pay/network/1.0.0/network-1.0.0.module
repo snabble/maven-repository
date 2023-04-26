@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.snabble.pay",
+    "module": "network",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "network-1.0.0.jar",
+          "url": "network-1.0.0.jar",
+          "size": 15067,
+          "sha512": "be5a5d835096c507c8ed097e7f81d7a843aa89ee03be72c72bbbb456192798d2fc0fa8fdf974edcd8fcdb8853fe795fef982ffe7eac24d5d33808a6abc66c398",
+          "sha256": "f87055ce7c82e579dea9194dad1ad948656affb2f7709f14e3dd0e960540db27",
+          "sha1": "8fcfbd4637bcd192c79415f10c750d88fe92a5ff",
+          "md5": "39b10e1c05e22f5eb883bc9d2dca60e5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "network-1.0.0.jar",
+          "url": "network-1.0.0.jar",
+          "size": 15067,
+          "sha512": "be5a5d835096c507c8ed097e7f81d7a843aa89ee03be72c72bbbb456192798d2fc0fa8fdf974edcd8fcdb8853fe795fef982ffe7eac24d5d33808a6abc66c398",
+          "sha256": "f87055ce7c82e579dea9194dad1ad948656affb2f7709f14e3dd0e960540db27",
+          "sha1": "8fcfbd4637bcd192c79415f10c750d88fe92a5ff",
+          "md5": "39b10e1c05e22f5eb883bc9d2dca60e5"
+        }
+      ]
+    }
+  ]
+}

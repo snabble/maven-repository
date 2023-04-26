@@ -1,0 +1,159 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.snabble.pay",
+    "module": "account",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "account-1.0.0.aar",
+          "url": "account-1.0.0.aar",
+          "size": 44914,
+          "sha512": "bdfde0d3768a73c251ea0c9f9d1ff6f32f8f5414102e90642e0326dca1c2baa6d0cab5a48f59c2c12430e4643f1009c16f9c5c980581e0daf8a47f5b6d315a02",
+          "sha256": "5de248f7f8b8788cf6ba1b224ece90f3dcbc6a5e419c5b3d446071b9ad1dc7d6",
+          "sha1": "be8d5e68a0ea3d55717f053332a1040f826c3c5c",
+          "md5": "41b520da78eea88f6675c4600db8bddf"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.snabble.pay",
+          "module": "api",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.snabble.pay",
+          "module": "core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.snabble.pay",
+          "module": "internal",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.snabble.pay",
+          "module": "shared",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-android",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-android-compat",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "account-1.0.0.aar",
+          "url": "account-1.0.0.aar",
+          "size": 44914,
+          "sha512": "bdfde0d3768a73c251ea0c9f9d1ff6f32f8f5414102e90642e0326dca1c2baa6d0cab5a48f59c2c12430e4643f1009c16f9c5c980581e0daf8a47f5b6d315a02",
+          "sha256": "5de248f7f8b8788cf6ba1b224ece90f3dcbc6a5e419c5b3d446071b9ad1dc7d6",
+          "sha1": "be8d5e68a0ea3d55717f053332a1040f826c3c5c",
+          "md5": "41b520da78eea88f6675c4600db8bddf"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "account-1.0.0-sources.jar",
+          "url": "account-1.0.0-sources.jar",
+          "size": 7746,
+          "sha512": "a9892a8cf423edfb13e497028a3ebcf1e803889b48da771f54c6b40b5d9dd710cbfc8dbbaa949e120aa5a56b915169fd38931ed2f28dbd97bb66dfd05b02bb21",
+          "sha256": "003280fd67961c806da082b61b9e386ff2f13fca0720dd91bfd8cfbe4c02c5ee",
+          "sha1": "e7bb06f04bfdfa34d4f6d44ee3431be719bd9271",
+          "md5": "62bea3632c50d01d9a31b8f59f6ed22b"
+        }
+      ]
+    }
+  ]
+}
