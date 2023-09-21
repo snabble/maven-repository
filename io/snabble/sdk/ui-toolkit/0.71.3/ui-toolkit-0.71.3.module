@@ -1,0 +1,313 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.snabble.sdk",
+    "module": "ui-toolkit",
+    "version": "0.71.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.preference",
+          "module": "preference-ktx",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-toolkit-0.71.3.aar",
+          "url": "ui-toolkit-0.71.3.aar",
+          "size": 2205033,
+          "sha512": "0ecf57328ae9088e68b84790e13b609eabf23b71ead36a85caa4e91fc974c09c47b4eab5fb19de57b72fc690de74220f162f30b99cdf3a96470477f8965a6b77",
+          "sha256": "b510749ce8b1875757061af17f77c46b19e1f58de3d4470bc08ac721313fdb80",
+          "sha1": "6c4db655ded618687a83e49b564442a8b48adad2",
+          "md5": "5738ab4ea24919d32770917c8d7f34c7"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "io.snabble.sdk",
+          "module": "accessibility-toolbox",
+          "version": {
+            "requires": "0.71.3"
+          }
+        },
+        {
+          "group": "io.snabble.sdk",
+          "module": "utils",
+          "version": {
+            "requires": "0.71.3"
+          }
+        },
+        {
+          "group": "io.snabble.sdk",
+          "module": "ui",
+          "version": {
+            "requires": "0.71.3"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.7.2"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout-compose",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.gridlayout",
+          "module": "gridlayout",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-fragment-ktx",
+          "version": {
+            "requires": "2.6.0"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-runtime-ktx",
+          "version": {
+            "requires": "2.6.0"
+          }
+        },
+        {
+          "group": "androidx.startup",
+          "module": "startup-runtime",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.5"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-maps",
+          "version": {
+            "requires": "18.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "com.squareup.picasso",
+          "module": "picasso",
+          "version": {
+            "requires": "2.8"
+          }
+        },
+        {
+          "group": "com.github.sebaslogen.resaca",
+          "module": "resaca",
+          "version": {
+            "requires": "2.3.3"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.1.0-alpha08"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-themeadapter-material3",
+          "version": {
+            "requires": "0.30.1"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-android",
+          "version": {
+            "requires": "3.4.2"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-android-compat",
+          "version": {
+            "requires": "3.4.2"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-androidx-compose",
+          "version": {
+            "requires": "3.4.5"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.4.2"
+          }
+        },
+        {
+          "group": "androidx.preference",
+          "module": "preference-ktx",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-toolkit-0.71.3.aar",
+          "url": "ui-toolkit-0.71.3.aar",
+          "size": 2205033,
+          "sha512": "0ecf57328ae9088e68b84790e13b609eabf23b71ead36a85caa4e91fc974c09c47b4eab5fb19de57b72fc690de74220f162f30b99cdf3a96470477f8965a6b77",
+          "sha256": "b510749ce8b1875757061af17f77c46b19e1f58de3d4470bc08ac721313fdb80",
+          "sha1": "6c4db655ded618687a83e49b564442a8b48adad2",
+          "md5": "5738ab4ea24919d32770917c8d7f34c7"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "ui-toolkit-0.71.3-sources.jar",
+          "url": "ui-toolkit-0.71.3-sources.jar",
+          "size": 541851,
+          "sha512": "d1fe4634240f24f30304664f84a83a3f48d9dc0cda5a4d032b0d2234ff6b2018fb48b77a7cb3d036bbf2d7659e720bfe14c46d59f2fea821c22df4fb693a1486",
+          "sha256": "8067a429393c0da632f11c5566f0e040b7c5389e2b1dd36390cdd40d2473df7c",
+          "sha1": "66c8731f246349f8369de035203aa13c537fda6d",
+          "md5": "54bf79c61bc369ed5bbdda050753b8de"
+        }
+      ]
+    }
+  ]
+}
