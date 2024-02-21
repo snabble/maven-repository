@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.snabble.sdk",
+    "module": "accessibility-toolbox",
+    "version": "0.72.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "accessibility-toolbox-0.72.5.aar",
+          "url": "accessibility-toolbox-0.72.5.aar",
+          "size": 25317,
+          "sha512": "2bfff0e006762e8fe2c4ef7663f48ebd90e3a4cc9dcf57cac7a0b0449cbbf61a26f8d83afdd8f8fd457c9b37011b55118919f7556cf3320c7424e72c1572649f",
+          "sha256": "67f9a7a1fdc6272c06d0829c39392fb995a0368e703a4054d081f3c2ff1227ce",
+          "sha1": "ddbdd675385ea1bf067f32a1d330a5ded012800a",
+          "md5": "8a6bfef6bd0d019cf9bb05a329f0ab58"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "io.snabble.sdk",
+          "module": "utils",
+          "version": {
+            "requires": "0.72.5"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "accessibility-toolbox-0.72.5.aar",
+          "url": "accessibility-toolbox-0.72.5.aar",
+          "size": 25317,
+          "sha512": "2bfff0e006762e8fe2c4ef7663f48ebd90e3a4cc9dcf57cac7a0b0449cbbf61a26f8d83afdd8f8fd457c9b37011b55118919f7556cf3320c7424e72c1572649f",
+          "sha256": "67f9a7a1fdc6272c06d0829c39392fb995a0368e703a4054d081f3c2ff1227ce",
+          "sha1": "ddbdd675385ea1bf067f32a1d330a5ded012800a",
+          "md5": "8a6bfef6bd0d019cf9bb05a329f0ab58"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "accessibility-toolbox-0.72.5-sources.jar",
+          "url": "accessibility-toolbox-0.72.5-sources.jar",
+          "size": 10295,
+          "sha512": "5cd29f4679905852d3b741cab239637196dccba323905c9fe947558f3a8e62bd0b26a00d2d2bb061b568f3faff12727b6c27c32d970552f771c22982f80e67c7",
+          "sha256": "26c23b54c32a953d82ff453d1871c552d9ecf3928458ebfaf3991c5f5c9692fd",
+          "sha1": "e16662017954d97e50f42be15de5f88d1b3a235a",
+          "md5": "f430e93992df8383536f3605cfca7c82"
+        }
+      ]
+    }
+  ]
+}
