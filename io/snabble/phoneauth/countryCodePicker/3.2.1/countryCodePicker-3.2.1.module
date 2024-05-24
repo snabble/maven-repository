@@ -1,0 +1,143 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.snabble.phoneauth",
+    "module": "countryCodePicker",
+    "version": "3.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "countryCodePicker-3.2.1.aar",
+          "url": "countryCodePicker-3.2.1.aar",
+          "size": 195236,
+          "sha512": "e6d2c695655e7cbade43086521f273838b654797050a2ccaab3a2a360e3dc843f702ce331df2b0302af15204b8f428471e6878cf9f104eb69a8497a505e615cf",
+          "sha256": "f544b2c84a7e3b5799f2e6e6abc500ce1cbeaf41e2f38946a3a34136c98c9c2b",
+          "sha1": "4c83036258c8b506ed44d98902088ecebb494936",
+          "md5": "6f9a5f3aa5d029756fffefcf93f82eb0"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2024.02.02"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-androidx-compose",
+          "version": {
+            "requires": "3.4.4"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "countryCodePicker-3.2.1.aar",
+          "url": "countryCodePicker-3.2.1.aar",
+          "size": 195236,
+          "sha512": "e6d2c695655e7cbade43086521f273838b654797050a2ccaab3a2a360e3dc843f702ce331df2b0302af15204b8f428471e6878cf9f104eb69a8497a505e615cf",
+          "sha256": "f544b2c84a7e3b5799f2e6e6abc500ce1cbeaf41e2f38946a3a34136c98c9c2b",
+          "sha1": "4c83036258c8b506ed44d98902088ecebb494936",
+          "md5": "6f9a5f3aa5d029756fffefcf93f82eb0"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "countryCodePicker-3.2.1-sources.jar",
+          "url": "countryCodePicker-3.2.1-sources.jar",
+          "size": 12673,
+          "sha512": "6a1b1a2437281716dd668d127f784868fac524664c053f20ebd9cfdcbb1f44b9b2ca3d5a06cd037827d9308a50fb0ac1896b0fe6b08f9134775a1c650057b919",
+          "sha256": "1cd71232acb500e69ee34b37ba35f01075bb817bd638a240e18ab481c844e65a",
+          "sha1": "9fd799788e1ea43fd54b30f9c57034398f416d19",
+          "md5": "1e78dd7aa21dc3710a70e6c7b4f89009"
+        }
+      ]
+    }
+  ]
+}
