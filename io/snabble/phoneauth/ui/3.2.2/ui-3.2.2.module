@@ -1,0 +1,230 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.snabble.phoneauth",
+    "module": "ui",
+    "version": "3.2.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-3.2.2.aar",
+          "url": "ui-3.2.2.aar",
+          "size": 115310,
+          "sha512": "a8de749088f9d729a1d11f2b177343aa3b208ec482e66a053c442ef2517062a1ec8c0c691e2d89e0c50588f6ede3fb0575e03b62bb9b29c2087fa8e2b190c8c9",
+          "sha256": "87812276b51dcf22a2214b9e447861aad63077f15eb57c320343f23c3e902d78",
+          "sha1": "57040da51726024e9cd8db7bc063686455d38769",
+          "md5": "562cad4f36e8da3077cef1e11c2f3ba9"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.snabble.phoneauth",
+          "module": "core",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2024.02.02"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-graphics"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-compose"
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-themeadapter-material3",
+          "version": {
+            "requires": "0.32.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.compose.compiler",
+          "module": "compiler",
+          "version": {
+            "requires": "1.5.10"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout-compose",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-graphics"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material-icons-extended"
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.5.7"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.github.togisoft",
+          "module": "jetpack_compose_country_code_picker",
+          "version": {
+            "requires": "1.1.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-3.2.2.aar",
+          "url": "ui-3.2.2.aar",
+          "size": 115310,
+          "sha512": "a8de749088f9d729a1d11f2b177343aa3b208ec482e66a053c442ef2517062a1ec8c0c691e2d89e0c50588f6ede3fb0575e03b62bb9b29c2087fa8e2b190c8c9",
+          "sha256": "87812276b51dcf22a2214b9e447861aad63077f15eb57c320343f23c3e902d78",
+          "sha1": "57040da51726024e9cd8db7bc063686455d38769",
+          "md5": "562cad4f36e8da3077cef1e11c2f3ba9"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-3.2.2-sources.jar",
+          "url": "ui-3.2.2-sources.jar",
+          "size": 9403,
+          "sha512": "a029ccfb4dc7d9674189b3e12238dea4768a20f671bf500a5e0a2ece4172cc07554316152b273e1df4afc9358030ab585f367a916125e797e963f8f25e390b3e",
+          "sha256": "b456de37c1471d8252a2fc0dfe0e361c37afa09a14b6cb7a59445f22ec640709",
+          "sha1": "e7af4a4113b0b8793ed89073a3d9c162285d6c62",
+          "md5": "ddab30ec3243bb0ae0e20b8af0fecb1a"
+        }
+      ]
+    }
+  ]
+}
