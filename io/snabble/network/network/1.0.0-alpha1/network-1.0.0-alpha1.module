@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.snabble.network",
+    "module": "network",
+    "version": "1.0.0-alpha1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.snabble.network",
+          "module": "result",
+          "version": {
+            "requires": "1.0.0-alpha1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "network-1.0.0-alpha1.jar",
+          "url": "network-1.0.0-alpha1.jar",
+          "size": 38898,
+          "sha512": "2de80cd6178736e55e1db9c9f3a9d5f88bdf3d8079eb9ee2e8a81a8b54a4b1ff4b6f3a505d179bf9fb2c56a6d8912bf02825938d727a31189284eb0ec1a2fe35",
+          "sha256": "43fbb0a117b5cc0a4f89b16e78b09b4a0f6fd98044d992e74c1c31dead4ceffe",
+          "sha1": "42a0a206ff5bbbca51ebfaedc42ab692afc8158b",
+          "md5": "ee5f172b357393bf1bcd260ccd28851b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.snabble.network",
+          "module": "core",
+          "version": {
+            "requires": "1.0.0-alpha1"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.6.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.11.0"
+          }
+        },
+        {
+          "group": "io.snabble.network",
+          "module": "result",
+          "version": {
+            "requires": "1.0.0-alpha1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "network-1.0.0-alpha1.jar",
+          "url": "network-1.0.0-alpha1.jar",
+          "size": 38898,
+          "sha512": "2de80cd6178736e55e1db9c9f3a9d5f88bdf3d8079eb9ee2e8a81a8b54a4b1ff4b6f3a505d179bf9fb2c56a6d8912bf02825938d727a31189284eb0ec1a2fe35",
+          "sha256": "43fbb0a117b5cc0a4f89b16e78b09b4a0f6fd98044d992e74c1c31dead4ceffe",
+          "sha1": "42a0a206ff5bbbca51ebfaedc42ab692afc8158b",
+          "md5": "ee5f172b357393bf1bcd260ccd28851b"
+        }
+      ]
+    }
+  ]
+}
