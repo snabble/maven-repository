@@ -2,7 +2,7 @@
   "formatVersion": "1.1",
   "component": {
     "group": "io.snabble.network",
-    "module": "network",
+    "module": "api",
     "version": "1.0.0-alpha1",
     "attributes": {
       "org.gradle.status": "release"
@@ -27,10 +27,10 @@
       },
       "dependencies": [
         {
-          "group": "io.snabble.network",
-          "module": "result",
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
           "version": {
-            "requires": "1.0.0-alpha1"
+            "requires": "2.9.0"
           }
         },
         {
@@ -43,13 +43,13 @@
       ],
       "files": [
         {
-          "name": "network-1.0.0-alpha1.jar",
-          "url": "network-1.0.0-alpha1.jar",
-          "size": 38898,
-          "sha512": "82f28526cc75967f5c1f82f25a92e2b5a47056dd41ee439fdd6b729dd27b1798a4a0ada555b0fe10fa2870002280c67b20b0dd266a9d997f4f755e611fb830ac",
-          "sha256": "cfe88056de008570bdebd6784b4b8a62a36b2da67d586d4f5848c24a6c6770b9",
-          "sha1": "2b6a4385c8c7aaad4cff20410bcc7b91b341ebc0",
-          "md5": "47f829b953a66414aa61c9515c65b8a2"
+          "name": "api-1.0.0-alpha1.jar",
+          "url": "api-1.0.0-alpha1.jar",
+          "size": 65901,
+          "sha512": "580877ab8ee200c58b73b99925e9ed07f614f552b21e2f1639f74ab5aaa3f707d97018b3912432eadf24805bf191b8fdc525dea50d08f982103a9ef5fc007cf1",
+          "sha256": "e35c6913366f31f096ab09c30803780246973aa701b1cceb93ed15550b11c6ab",
+          "sha1": "c14a7cca9c90f02bcaa82aa9b69eeb569ce0bd12",
+          "md5": "87c89a7696abfd63deb3b725d75f4971"
         }
       ]
     },
@@ -67,23 +67,16 @@
       "dependencies": [
         {
           "group": "io.snabble.network",
-          "module": "core",
+          "module": "result",
           "version": {
             "requires": "1.0.0-alpha1"
           }
         },
         {
-          "group": "com.squareup.retrofit2",
-          "module": "retrofit",
+          "group": "com.google.code.gson",
+          "module": "gson",
           "version": {
-            "requires": "2.9.0"
-          }
-        },
-        {
-          "group": "io.insert-koin",
-          "module": "koin-core",
-          "version": {
-            "requires": "3.4.0"
+            "requires": "2.10.1"
           }
         },
         {
@@ -94,13 +87,6 @@
           }
         },
         {
-          "group": "org.jetbrains.kotlinx",
-          "module": "kotlinx-coroutines-core",
-          "version": {
-            "requires": "1.6.4"
-          }
-        },
-        {
           "group": "com.squareup.okhttp3",
           "module": "okhttp",
           "version": {
@@ -108,10 +94,10 @@
           }
         },
         {
-          "group": "io.snabble.network",
-          "module": "result",
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
           "version": {
-            "requires": "1.0.0-alpha1"
+            "requires": "2.9.0"
           }
         },
         {
@@ -124,13 +110,13 @@
       ],
       "files": [
         {
-          "name": "network-1.0.0-alpha1.jar",
-          "url": "network-1.0.0-alpha1.jar",
-          "size": 38898,
-          "sha512": "82f28526cc75967f5c1f82f25a92e2b5a47056dd41ee439fdd6b729dd27b1798a4a0ada555b0fe10fa2870002280c67b20b0dd266a9d997f4f755e611fb830ac",
-          "sha256": "cfe88056de008570bdebd6784b4b8a62a36b2da67d586d4f5848c24a6c6770b9",
-          "sha1": "2b6a4385c8c7aaad4cff20410bcc7b91b341ebc0",
-          "md5": "47f829b953a66414aa61c9515c65b8a2"
+          "name": "api-1.0.0-alpha1.jar",
+          "url": "api-1.0.0-alpha1.jar",
+          "size": 65901,
+          "sha512": "580877ab8ee200c58b73b99925e9ed07f614f552b21e2f1639f74ab5aaa3f707d97018b3912432eadf24805bf191b8fdc525dea50d08f982103a9ef5fc007cf1",
+          "sha256": "e35c6913366f31f096ab09c30803780246973aa701b1cceb93ed15550b11c6ab",
+          "sha1": "c14a7cca9c90f02bcaa82aa9b69eeb569ce0bd12",
+          "md5": "87c89a7696abfd63deb3b725d75f4971"
         }
       ]
     }

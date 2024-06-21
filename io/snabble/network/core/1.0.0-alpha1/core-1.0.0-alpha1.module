@@ -2,7 +2,7 @@
   "formatVersion": "1.1",
   "component": {
     "group": "io.snabble.network",
-    "module": "network",
+    "module": "core",
     "version": "1.0.0-alpha1",
     "attributes": {
       "org.gradle.status": "release"
@@ -28,7 +28,7 @@
       "dependencies": [
         {
           "group": "io.snabble.network",
-          "module": "result",
+          "module": "api",
           "version": {
             "requires": "1.0.0-alpha1"
           }
@@ -43,13 +43,13 @@
       ],
       "files": [
         {
-          "name": "network-1.0.0-alpha1.jar",
-          "url": "network-1.0.0-alpha1.jar",
-          "size": 38898,
-          "sha512": "82f28526cc75967f5c1f82f25a92e2b5a47056dd41ee439fdd6b729dd27b1798a4a0ada555b0fe10fa2870002280c67b20b0dd266a9d997f4f755e611fb830ac",
-          "sha256": "cfe88056de008570bdebd6784b4b8a62a36b2da67d586d4f5848c24a6c6770b9",
-          "sha1": "2b6a4385c8c7aaad4cff20410bcc7b91b341ebc0",
-          "md5": "47f829b953a66414aa61c9515c65b8a2"
+          "name": "core-1.0.0-alpha1.jar",
+          "url": "core-1.0.0-alpha1.jar",
+          "size": 122032,
+          "sha512": "0ebad5d40e4a9d0ee1112a1ee7471d0a96282262b48f0aabe78f39092031de7e1bda3b8506f69869c2ac813739271142fc57f13bd797f974a7f9ceff94760f8b",
+          "sha256": "79c9eefe787f2f365dc4af3037964ae88120831c221533a5aa20bbb7db4df5a5",
+          "sha1": "c79eb521f9bcaa1996fd0db840090f37ac05e38f",
+          "md5": "08212f00bc920dbe2f1a595bdfbb7c19"
         }
       ]
     },
@@ -67,16 +67,16 @@
       "dependencies": [
         {
           "group": "io.snabble.network",
-          "module": "core",
+          "module": "result",
           "version": {
             "requires": "1.0.0-alpha1"
           }
         },
         {
-          "group": "com.squareup.retrofit2",
-          "module": "retrofit",
+          "group": "com.google.code.gson",
+          "module": "gson",
           "version": {
-            "requires": "2.9.0"
+            "requires": "2.10.1"
           }
         },
         {
@@ -88,16 +88,16 @@
         },
         {
           "group": "org.jetbrains.kotlinx",
-          "module": "kotlinx-serialization-json",
+          "module": "kotlinx-coroutines-core",
           "version": {
-            "requires": "1.6.3"
+            "requires": "1.6.4"
           }
         },
         {
           "group": "org.jetbrains.kotlinx",
-          "module": "kotlinx-coroutines-core",
+          "module": "kotlinx-serialization-json",
           "version": {
-            "requires": "1.6.4"
+            "requires": "1.6.3"
           }
         },
         {
@@ -109,7 +109,7 @@
         },
         {
           "group": "io.snabble.network",
-          "module": "result",
+          "module": "api",
           "version": {
             "requires": "1.0.0-alpha1"
           }
@@ -124,13 +124,13 @@
       ],
       "files": [
         {
-          "name": "network-1.0.0-alpha1.jar",
-          "url": "network-1.0.0-alpha1.jar",
-          "size": 38898,
-          "sha512": "82f28526cc75967f5c1f82f25a92e2b5a47056dd41ee439fdd6b729dd27b1798a4a0ada555b0fe10fa2870002280c67b20b0dd266a9d997f4f755e611fb830ac",
-          "sha256": "cfe88056de008570bdebd6784b4b8a62a36b2da67d586d4f5848c24a6c6770b9",
-          "sha1": "2b6a4385c8c7aaad4cff20410bcc7b91b341ebc0",
-          "md5": "47f829b953a66414aa61c9515c65b8a2"
+          "name": "core-1.0.0-alpha1.jar",
+          "url": "core-1.0.0-alpha1.jar",
+          "size": 122032,
+          "sha512": "0ebad5d40e4a9d0ee1112a1ee7471d0a96282262b48f0aabe78f39092031de7e1bda3b8506f69869c2ac813739271142fc57f13bd797f974a7f9ceff94760f8b",
+          "sha256": "79c9eefe787f2f365dc4af3037964ae88120831c221533a5aa20bbb7db4df5a5",
+          "sha1": "c79eb521f9bcaa1996fd0db840090f37ac05e38f",
+          "md5": "08212f00bc920dbe2f1a595bdfbb7c19"
         }
       ]
     }
