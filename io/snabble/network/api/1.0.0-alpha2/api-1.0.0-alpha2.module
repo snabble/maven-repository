@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.snabble.network",
+    "module": "api",
+    "version": "1.0.0-alpha2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "api-1.0.0-alpha2.jar",
+          "url": "api-1.0.0-alpha2.jar",
+          "size": 65901,
+          "sha512": "e4c376dcc839c6f312f8d5651ba1e4082567ff157e9848e1a5a3008474097a833c317fcb5488831256387860f723bbf81fa1b109ca055f2ab7142fe50c7475d3",
+          "sha256": "2d9f1459f30c8dd07b0eb9850b6df24f09572ee6ea7d3f77b969f8622f6e81b4",
+          "sha1": "7ffad3b01a8a2656bb9739fefcf56faaaa26696c",
+          "md5": "81923ed16e548b293bcf1b6715dd5684"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.snabble.network",
+          "module": "result",
+          "version": {
+            "requires": "1.0.0-alpha2"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.6.3"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "api-1.0.0-alpha2.jar",
+          "url": "api-1.0.0-alpha2.jar",
+          "size": 65901,
+          "sha512": "e4c376dcc839c6f312f8d5651ba1e4082567ff157e9848e1a5a3008474097a833c317fcb5488831256387860f723bbf81fa1b109ca055f2ab7142fe50c7475d3",
+          "sha256": "2d9f1459f30c8dd07b0eb9850b6df24f09572ee6ea7d3f77b969f8622f6e81b4",
+          "sha1": "7ffad3b01a8a2656bb9739fefcf56faaaa26696c",
+          "md5": "81923ed16e548b293bcf1b6715dd5684"
+        }
+      ]
+    }
+  ]
+}
