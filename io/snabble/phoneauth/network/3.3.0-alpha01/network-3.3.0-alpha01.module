@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.snabble.phoneauth",
+    "module": "network",
+    "version": "3.3.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "network-3.3.0-alpha01.jar",
+          "url": "network-3.3.0-alpha01.jar",
+          "size": 25082,
+          "sha512": "0f04c8c1021eea5ae00bfe55c1a9328023f1154579532a57e3b92f7380ed11a99c3dfaee8be2c4784886e339c6f8d49ba1bc181834b085bd11e4fea1e147f2e5",
+          "sha256": "9505cfd69a8aa46e58cb981610778c6dec7dc156cfee09b82a6c8ba560503221",
+          "sha1": "a4bdbf10a2aaeb5773ba9592e2d700b019a2b386",
+          "md5": "382e06d793e5edf0b7ed4ac8a0f44e43"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "network-3.3.0-alpha01.jar",
+          "url": "network-3.3.0-alpha01.jar",
+          "size": 25082,
+          "sha512": "0f04c8c1021eea5ae00bfe55c1a9328023f1154579532a57e3b92f7380ed11a99c3dfaee8be2c4784886e339c6f8d49ba1bc181834b085bd11e4fea1e147f2e5",
+          "sha256": "9505cfd69a8aa46e58cb981610778c6dec7dc156cfee09b82a6c8ba560503221",
+          "sha1": "a4bdbf10a2aaeb5773ba9592e2d700b019a2b386",
+          "md5": "382e06d793e5edf0b7ed4ac8a0f44e43"
+        }
+      ]
+    }
+  ]
+}
