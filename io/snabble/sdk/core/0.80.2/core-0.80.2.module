@@ -1,0 +1,218 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.snabble.sdk",
+    "module": "core",
+    "version": "0.80.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-0.80.2.aar",
+          "url": "core-0.80.2.aar",
+          "size": 644841,
+          "sha512": "e5d1f7d069f34f2f4285ea5244e979715b9426cee2b8bc9925921cb95045288e5fc06f4ebb8cc12f417c3749efb3df55b738953c465fa116338ae4bd24821609",
+          "sha256": "707e5711630c61bb12188180c926f3d8137efeca556c468da0491292c1a8816f",
+          "sha1": "7bebdfee5c09a6a1f1aed9e6413e545d7a0a43eb",
+          "md5": "7790b1aaccde7e8c2b21438b32ffc98b"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "io.snabble.sdk",
+          "module": "utils",
+          "version": {
+            "requires": "0.80.2"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.17.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.biometric",
+          "module": "biometric",
+          "version": {
+            "requires": "1.2.0-alpha05"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-process",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "com.caverock",
+          "module": "androidsvg-aar",
+          "version": {
+            "requires": "1.4"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.17.0"
+          }
+        },
+        {
+          "group": "org.iban4j",
+          "module": "iban4j",
+          "version": {
+            "requires": "3.2.10-RELEASE"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-wallet",
+          "version": {
+            "requires": "19.4.0"
+          }
+        },
+        {
+          "group": "eu.rekisoft.android.util",
+          "module": "LazyWorker",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-0.80.2.aar",
+          "url": "core-0.80.2.aar",
+          "size": 644841,
+          "sha512": "e5d1f7d069f34f2f4285ea5244e979715b9426cee2b8bc9925921cb95045288e5fc06f4ebb8cc12f417c3749efb3df55b738953c465fa116338ae4bd24821609",
+          "sha256": "707e5711630c61bb12188180c926f3d8137efeca556c468da0491292c1a8816f",
+          "sha1": "7bebdfee5c09a6a1f1aed9e6413e545d7a0a43eb",
+          "md5": "7790b1aaccde7e8c2b21438b32ffc98b"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "core-0.80.2-sources.jar",
+          "url": "core-0.80.2-sources.jar",
+          "size": 346449,
+          "sha512": "c27a8aeeb2123601a441229d9496efceb4c28a0b698aabc31f239951b3aa34abf5b1445c06b0cfa2a33a0335170ffb943064bb6d5f39765e39e6ba79e1610b1c",
+          "sha256": "a3616c522fd800140dc16c5a2cde9a39dff296a392c99a25c21a6f178c23fee3",
+          "sha1": "72ff9e036ac49ff8c5390ee3d4d617c00585ce5b",
+          "md5": "9ee994e34703ab36bae05894ef0bc330"
+        }
+      ]
+    }
+  ]
+}
