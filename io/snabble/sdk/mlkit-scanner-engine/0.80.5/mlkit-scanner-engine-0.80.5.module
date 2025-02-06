@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.snabble.sdk",
+    "module": "mlkit-scanner-engine",
+    "version": "0.80.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mlkit-scanner-engine-0.80.5.aar",
+          "url": "mlkit-scanner-engine-0.80.5.aar",
+          "size": 63982,
+          "sha512": "265269cffa32a05149700a4b8bb56d2aa2519d7c9874c212e1649cd34abd596cf1e5a7f6296b70280c3a842e45ff5511dc9df4bbcf4ffd49744a8d1709d8aba3",
+          "sha256": "472e1450973ceec0163f68af1f298d62146bb0ee5fbd064d637ef91e87e7e467",
+          "sha1": "02c8d3cc4a5772c3d80a82825cfe095c20dc2cef",
+          "md5": "514dd79dcf5cbf14320ba0bfe562f810"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.snabble.sdk",
+          "module": "core",
+          "version": {
+            "requires": "0.80.5"
+          }
+        },
+        {
+          "group": "io.snabble.sdk",
+          "module": "ui",
+          "version": {
+            "requires": "0.80.5"
+          }
+        },
+        {
+          "group": "io.snabble.sdk",
+          "module": "utils",
+          "version": {
+            "requires": "0.80.5"
+          }
+        },
+        {
+          "group": "com.google.mlkit",
+          "module": "barcode-scanning",
+          "version": {
+            "requires": "17.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mlkit-scanner-engine-0.80.5.aar",
+          "url": "mlkit-scanner-engine-0.80.5.aar",
+          "size": 63982,
+          "sha512": "265269cffa32a05149700a4b8bb56d2aa2519d7c9874c212e1649cd34abd596cf1e5a7f6296b70280c3a842e45ff5511dc9df4bbcf4ffd49744a8d1709d8aba3",
+          "sha256": "472e1450973ceec0163f68af1f298d62146bb0ee5fbd064d637ef91e87e7e467",
+          "sha1": "02c8d3cc4a5772c3d80a82825cfe095c20dc2cef",
+          "md5": "514dd79dcf5cbf14320ba0bfe562f810"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "mlkit-scanner-engine-0.80.5-sources.jar",
+          "url": "mlkit-scanner-engine-0.80.5-sources.jar",
+          "size": 5243,
+          "sha512": "2f8a3bb3b9df2e98cb5e5514c868a13ce555751f34a932f09ba31aa5efbdec7900e0ac96729ba547cb678a275840ccc87ceffa9f1cc2fa0957e62d846539deed",
+          "sha256": "493fdeed36f2ede5084b4622837a59ddbcb010d1cce3d630a47cec06259bfe1f",
+          "sha1": "e639ac3512a5ad63d0ee1cb0be49e735a78e92dc",
+          "md5": "d5f3c0506f9d580f38cae010914ee424"
+        }
+      ]
+    }
+  ]
+}
