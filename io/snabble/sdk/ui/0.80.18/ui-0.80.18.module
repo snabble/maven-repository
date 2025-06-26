@@ -1,0 +1,421 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.snabble.sdk",
+    "module": "ui",
+    "version": "0.80.18",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.snabble.sdk",
+          "module": "core",
+          "version": {
+            "requires": "0.80.18"
+          }
+        },
+        {
+          "group": "io.snabble.sdk",
+          "module": "accessibility-toolbox",
+          "version": {
+            "requires": "0.80.18"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-0.80.18.aar",
+          "url": "ui-0.80.18.aar",
+          "size": 2417558,
+          "sha512": "a3c380cd3c316c84f104dc80025fc9279340617b2f46da8a3a7f5ceef4046f4399f97e8a135c2c92a13900ebd496bf0a85ba1c1efef67ace1cc102a7b84fd776",
+          "sha256": "af68445593f1fd1618e419c96556b12e50308826aa260d69bbf9cdc55cf5befc",
+          "sha1": "8e9d3897c0cc0e2507f6c00eed8e688e6097e1dd",
+          "md5": "9aa211664771f022205188bd604a715a"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "io.snabble.sdk",
+          "module": "utils",
+          "version": {
+            "requires": "0.80.18"
+          }
+        },
+        {
+          "group": "com.airbnb.android",
+          "module": "lottie",
+          "version": {
+            "requires": "6.5.2"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.biometric",
+          "module": "biometric",
+          "version": {
+            "requires": "1.2.0-alpha05"
+          }
+        },
+        {
+          "group": "androidx.cardview",
+          "module": "cardview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "androidx.gridlayout",
+          "module": "gridlayout",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-ktx",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "androidx.startup",
+          "module": "startup-runtime",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.swiperefreshlayout",
+          "module": "swiperefreshlayout",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.viewpager2",
+          "module": "viewpager2",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.webkit",
+          "module": "webkit",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.17.0"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.2"
+          }
+        },
+        {
+          "group": "ch.datatrans",
+          "module": "android-sdk",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "compose",
+          "version": {
+            "requires": "1.0.0-beta01"
+          }
+        },
+        {
+          "group": "com.google.zxing",
+          "module": "core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-wallet",
+          "version": {
+            "requires": "19.4.0"
+          }
+        },
+        {
+          "group": "com.squareup.picasso",
+          "module": "picasso",
+          "version": {
+            "requires": "2.8"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "eu.rekisoft.android.util",
+          "module": "LazyWorker",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "me.relex",
+          "module": "circleindicator",
+          "version": {
+            "requires": "2.1.6"
+          }
+        },
+        {
+          "group": "io.snabble.phoneauth",
+          "module": "countryCodePicker",
+          "version": {
+            "requires": "3.3.0"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-camera2",
+          "version": {
+            "requires": "1.3.4"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-core",
+          "version": {
+            "requires": "1.3.4"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-extensions",
+          "version": {
+            "requires": "1.3.4"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-lifecycle",
+          "version": {
+            "requires": "1.3.4"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-view",
+          "version": {
+            "requires": "1.3.4"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-fragment-ktx",
+          "version": {
+            "requires": "2.8.1"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-runtime-ktx",
+          "version": {
+            "requires": "2.8.1"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-ui-ktx",
+          "version": {
+            "requires": "2.8.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.7.2"
+          }
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-themeadapter-material3",
+          "version": {
+            "requires": "0.36.0"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.7.2"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview",
+          "version": {
+            "requires": "1.7.2"
+          }
+        },
+        {
+          "group": "io.snabble.sdk",
+          "module": "core",
+          "version": {
+            "requires": "0.80.18"
+          }
+        },
+        {
+          "group": "io.snabble.sdk",
+          "module": "accessibility-toolbox",
+          "version": {
+            "requires": "0.80.18"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-0.80.18.aar",
+          "url": "ui-0.80.18.aar",
+          "size": 2417558,
+          "sha512": "a3c380cd3c316c84f104dc80025fc9279340617b2f46da8a3a7f5ceef4046f4399f97e8a135c2c92a13900ebd496bf0a85ba1c1efef67ace1cc102a7b84fd776",
+          "sha256": "af68445593f1fd1618e419c96556b12e50308826aa260d69bbf9cdc55cf5befc",
+          "sha1": "8e9d3897c0cc0e2507f6c00eed8e688e6097e1dd",
+          "md5": "9aa211664771f022205188bd604a715a"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "ui-0.80.18-sources.jar",
+          "url": "ui-0.80.18-sources.jar",
+          "size": 470721,
+          "sha512": "4ebef18f0ca15f0b8538897f88a714c34a4cbaca1148c31974360f1f0443a607df1c0073e82d749f5697d11691f78e45ece784646029c31328a3d0539aa865b3",
+          "sha256": "f1e433c2e4d89c05e2306927489a0e988c2835d137e166dff126fa07d1415ab3",
+          "sha1": "97944e1dae0ba020bdbdb891c9b14da45c1223c6",
+          "md5": "86150f1086589c31ec1962a0f4648412"
+        }
+      ]
+    }
+  ]
+}
