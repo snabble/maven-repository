@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.snabble.network",
+    "module": "network",
+    "version": "1.0.0-alpha3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.snabble.network",
+          "module": "result",
+          "version": {
+            "requires": "1.0.0-alpha3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "network-1.0.0-alpha3.jar",
+          "url": "network-1.0.0-alpha3.jar",
+          "size": 39281,
+          "sha512": "265f6e561f1de74abdc4a776420f21a248ffc67479365f068a05432faabba663c37e4c2234d06f6f5bb3b291500cb39d308a2dda05b9555a9d1c72b01bad7c5e",
+          "sha256": "6b997be6adc353e42819174eb1cc9ba5a62b70c0b02f3c972de0d7de2d5609b3",
+          "sha1": "7aa0c22fc317b354b5353db0ac6027bfce755cde",
+          "md5": "08216236ca05462c995e8b6e3ee89fa2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.snabble.network",
+          "module": "core",
+          "version": {
+            "requires": "1.0.0-alpha3"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.6.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.11.0"
+          }
+        },
+        {
+          "group": "io.snabble.network",
+          "module": "result",
+          "version": {
+            "requires": "1.0.0-alpha3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "network-1.0.0-alpha3.jar",
+          "url": "network-1.0.0-alpha3.jar",
+          "size": 39281,
+          "sha512": "265f6e561f1de74abdc4a776420f21a248ffc67479365f068a05432faabba663c37e4c2234d06f6f5bb3b291500cb39d308a2dda05b9555a9d1c72b01bad7c5e",
+          "sha256": "6b997be6adc353e42819174eb1cc9ba5a62b70c0b02f3c972de0d7de2d5609b3",
+          "sha1": "7aa0c22fc317b354b5353db0ac6027bfce755cde",
+          "md5": "08216236ca05462c995e8b6e3ee89fa2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "network-1.0.0-alpha3-sources.jar",
+          "url": "network-1.0.0-alpha3-sources.jar",
+          "size": 6749,
+          "sha512": "40044c8624d7fa528a6e145ad062df4e46c8cfd3c224f53f1943c1852a7e015ff74a974a30302874b158e2288701bed6d6afadfee05dce563f6f008bb076e7e2",
+          "sha256": "cd6fde093ed6cdd858870d38d7003f9fce038a726eff16f5ac78c1aff23e3fe9",
+          "sha1": "ddb9a37a293151eae52ba1c1420744362e9b73ef",
+          "md5": "54855e73e2b3a541104a13459bf72ccf"
+        }
+      ]
+    }
+  ]
+}
