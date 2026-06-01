@@ -1,0 +1,193 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.snabble.phoneauth",
+    "module": "countryCodePicker",
+    "version": "3.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "countryCodePicker-3.4.0.aar",
+          "url": "countryCodePicker-3.4.0.aar",
+          "size": 166268,
+          "sha512": "cc7b04167cb0588408d5bc1f1f087f8f2b8017758cd7c65d5556420b945f2b10d0dc02d5ee674df39ffc697c86f23ee9b0567d3a1d6ca8ba0887b06a05e30858",
+          "sha256": "aa285c637c686ed30d59628ac7f95b2f3c8bb1bc5f58336c3fdf1dd99bf25cec",
+          "sha1": "3e97a2075a8e3ccb799415f2695902c3564fd414",
+          "md5": "eeee743e76ffe4a8ebcbdfce08e164ef"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2026.05.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-graphics"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-compose"
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-themeadapter-material3",
+          "version": {
+            "requires": "0.36.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "androidx.compose.compiler",
+          "module": "compiler",
+          "version": {
+            "requires": "1.5.15"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout-compose",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material-icons-extended"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-android",
+          "version": {
+            "requires": "4.2.1"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-android-compat",
+          "version": {
+            "requires": "4.2.1"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-androidx-compose",
+          "version": {
+            "requires": "4.2.1"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "countryCodePicker-3.4.0.aar",
+          "url": "countryCodePicker-3.4.0.aar",
+          "size": 166268,
+          "sha512": "cc7b04167cb0588408d5bc1f1f087f8f2b8017758cd7c65d5556420b945f2b10d0dc02d5ee674df39ffc697c86f23ee9b0567d3a1d6ca8ba0887b06a05e30858",
+          "sha256": "aa285c637c686ed30d59628ac7f95b2f3c8bb1bc5f58336c3fdf1dd99bf25cec",
+          "sha1": "3e97a2075a8e3ccb799415f2695902c3564fd414",
+          "md5": "eeee743e76ffe4a8ebcbdfce08e164ef"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "countryCodePicker-3.4.0-sources.jar",
+          "url": "countryCodePicker-3.4.0-sources.jar",
+          "size": 12864,
+          "sha512": "3362707d24a9722c0a5de860c7800bcd36f4453cafa2232c3de96e4195031d23168707259504d8b3cb44ef00b451b1fed955e2d6e6845ac700fbac3f09006c2c",
+          "sha256": "9ae33c686e49f400f6fc6876e5ad438e4431d6aa6d47dc49eb42baf567ba6298",
+          "sha1": "2ccc66167502b15a412131c9af830256a809de06",
+          "md5": "eea9de81effe82d0d4069f63ac35142d"
+        }
+      ]
+    }
+  ]
+}

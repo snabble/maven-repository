@@ -1,0 +1,194 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.snabble.phoneauth",
+    "module": "core",
+    "version": "3.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.jakewharton.retrofit",
+          "module": "retrofit2-kotlinx-serialization-converter",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-3.4.0.aar",
+          "url": "core-3.4.0.aar",
+          "size": 140624,
+          "sha512": "d9ed9e817cd0b3f62fdec05656602c7cdc20219981818e83f9ed0591e151a63e1e247521f5e1ffa8218952c5c8cf0556d015b49de72bd5d22eeb5746a2bc5d6c",
+          "sha256": "17c00b195b618925c2e5642a44efb5a5000e6a742561e0419e7207d83119390a",
+          "sha1": "932d0768eb485c8ffbc38349c342331ff8029c5d",
+          "md5": "c1219bd17e06b584bf40fa043a7bc5fd"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.snabble.phoneauth",
+          "module": "network",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.18.0"
+          }
+        },
+        {
+          "group": "androidx.startup",
+          "module": "startup-runtime",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-android",
+          "version": {
+            "requires": "4.2.1"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-android-compat",
+          "version": {
+            "requires": "4.2.1"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-androidx-compose",
+          "version": {
+            "requires": "4.2.1"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.2.1"
+          }
+        },
+        {
+          "group": "com.jakewharton.retrofit",
+          "module": "retrofit2-kotlinx-serialization-converter",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-3.4.0.aar",
+          "url": "core-3.4.0.aar",
+          "size": 140624,
+          "sha512": "d9ed9e817cd0b3f62fdec05656602c7cdc20219981818e83f9ed0591e151a63e1e247521f5e1ffa8218952c5c8cf0556d015b49de72bd5d22eeb5746a2bc5d6c",
+          "sha256": "17c00b195b618925c2e5642a44efb5a5000e6a742561e0419e7207d83119390a",
+          "sha1": "932d0768eb485c8ffbc38349c342331ff8029c5d",
+          "md5": "c1219bd17e06b584bf40fa043a7bc5fd"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-3.4.0-sources.jar",
+          "url": "core-3.4.0-sources.jar",
+          "size": 29693,
+          "sha512": "4b4dff4d4ec12e7cf35808cf8a6646c23a9d6aba341f9a434f9877a72dee12072c3a79dbd928f86185ce8ff70d942bd13a7f38a8588497f3884dd3d43fb00e6f",
+          "sha256": "90e4e2b76d0ff001ea21f0376d6c71133c2a4f7b91b515f9604728b6629b7231",
+          "sha1": "8804f823ce04896f6cc302e213cf366f9f5cbb37",
+          "md5": "faffc30506626861b14fac5e512b401c"
+        }
+      ]
+    }
+  ]
+}

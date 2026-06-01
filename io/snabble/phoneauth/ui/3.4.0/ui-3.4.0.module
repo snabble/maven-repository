@@ -1,0 +1,214 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.snabble.phoneauth",
+    "module": "ui",
+    "version": "3.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-3.4.0.aar",
+          "url": "ui-3.4.0.aar",
+          "size": 78987,
+          "sha512": "78ca98b2538f8ca046a8a94548f231ccc2615188a6004e9da89ae72d450e7119320fded40713d66d7174b0d5a00a45fa6ece546a44b17ee5430fcb4dd91c29a8",
+          "sha256": "6c3b630762bab78cc80043038f3e3353a50906269b1a1fd300c2cb4251a2455f",
+          "sha1": "070aff0c44a746a62213ac9df9ebfad6ef95032c",
+          "md5": "4266cb2aea7fbdc3d84ec94d94182943"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.snabble.phoneauth",
+          "module": "core",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2026.05.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-graphics"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-compose"
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-themeadapter-material3",
+          "version": {
+            "requires": "0.36.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "androidx.compose.compiler",
+          "module": "compiler",
+          "version": {
+            "requires": "1.5.15"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout-compose",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material-icons-extended"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.18.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.8.9"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.14.0"
+          }
+        },
+        {
+          "group": "com.github.togisoft",
+          "module": "jetpack_compose_country_code_picker",
+          "version": {
+            "requires": "1.1.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-3.4.0.aar",
+          "url": "ui-3.4.0.aar",
+          "size": 78987,
+          "sha512": "78ca98b2538f8ca046a8a94548f231ccc2615188a6004e9da89ae72d450e7119320fded40713d66d7174b0d5a00a45fa6ece546a44b17ee5430fcb4dd91c29a8",
+          "sha256": "6c3b630762bab78cc80043038f3e3353a50906269b1a1fd300c2cb4251a2455f",
+          "sha1": "070aff0c44a746a62213ac9df9ebfad6ef95032c",
+          "md5": "4266cb2aea7fbdc3d84ec94d94182943"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-3.4.0-sources.jar",
+          "url": "ui-3.4.0-sources.jar",
+          "size": 9497,
+          "sha512": "6047a4c5cb6eddec4b751a000d4b91b265128189ab36a0f5371e35ca5a5962c7f6dd64b4e8c1ab42e4da5aebb4505c7a409ed0c71266f874cfe283288c6a9848",
+          "sha256": "911899a35a2b18c07483acc234604f187b3535797605154d7a3a2dc8d1a8a438",
+          "sha1": "b54555f259d44a44accf7ad3b8847a47d1ede79a",
+          "md5": "4b9e6a2992481152a60f7f7a86eced9a"
+        }
+      ]
+    }
+  ]
+}
